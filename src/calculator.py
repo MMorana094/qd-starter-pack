@@ -7,5 +7,13 @@
 #  Difference: 2
 #  Multiplication: 8
 # Division
-from typing import union
-def sum(a: [int, float], b:int)
+
+from typing import Union
+def sum(a: Union[int, float], b: Union[int, float]) :
+    return a + b
+
+def diff(a: Union[int, float], b: Union[int, float]) :
+    return a - b
+
+def mult(a: Union[int, float], b: Union[int, float]) :
+    return a * b
